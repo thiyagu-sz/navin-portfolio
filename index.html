@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>NAVEEN R. | AI/ML &amp; Creative Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "secondary-container": "#454747",
+                      "tertiary-fixed": "#ffdbd0",
+                      "on-secondary-fixed-variant": "#454747",
+                      "primary-container": "#F3500F",
+                      "surface-container-highest": "#353534",
+                      "surface-tint": "#ffb59e",
+                      "secondary-fixed-dim": "#c6c6c7",
+                      "on-surface-variant": "#e4beb3",
+                      "secondary": "#c6c6c7",
+                      "surface-container": "#201f1f",
+                      "secondary-fixed": "#e2e2e2",
+                      "on-secondary": "#2f3131",
+                      "surface-container-high": "#2a2a2a",
+                      "surface-container-lowest": "#0e0e0e",
+                      "on-primary-container": "#521400",
+                      "on-tertiary-fixed": "#3a0b00",
+                      "on-error-container": "#ffdad6",
+                      "inverse-on-surface": "#313030",
+                      "surface-container-low": "#1c1b1b",
+                      "outline-variant": "#5b4038",
+                      "error": "#ffb4ab",
+                      "primary": "#F3500F",
+                      "on-primary-fixed": "#3a0b00",
+                      "on-surface": "#e5e2e1",
+                      "error-container": "#93000a",
+                      "tertiary-fixed-dim": "#ffb59e",
+                      "on-background": "#e5e2e1",
+                      "primary-fixed-dim": "#ffb59e",
+                      "outline": "#ab897f",
+                      "inverse-surface": "#e5e2e1",
+                      "inverse-primary": "#ad3300",
+                      "primary-fixed": "#ffdbd0",
+                      "on-tertiary-container": "#521400",
+                      "surface-bright": "#3a3939",
+                      "on-tertiary": "#5e1800",
+                      "on-secondary-container": "#b4b5b5",
+                      "surface": "#131313",
+                      "on-primary-fixed-variant": "#842500",
+                      "on-tertiary-fixed-variant": "#842500",
+                      "tertiary-container": "#F3500F",
+                      "on-error": "#690005",
+                      "on-secondary-fixed": "#1a1c1c",
+                      "surface-variant": "#353534",
+                      "tertiary": "#ffb59e",
+                      "on-primary": "#5e1800",
+                      "surface-dim": "#131313",
+                      "background": "#131313"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Space Grotesk"],
+                      "body": ["Inter"],
+                      "label": ["Inter"],
+                      "rajdhani": ["Rajdhani"]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #131313;
+            color: #E5E2E1;
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+        }
+        .hero-glow {
+            background: radial-gradient(circle at 50% 50%, rgba(243, 80, 15, 0.1) 0%, transparent 70%);
+        }
+        .glass-nav {
+            background: rgba(19, 19, 19, 0.8);
+            backdrop-filter: blur(20px);
+        }
+        .text-glow {
+            text-shadow: 0 0 20px rgba(243, 80, 15, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface">
+<!-- TopAppBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#131313]/80 backdrop-blur-xl border-b border-outline-variant/10">
+<div class="flex justify-between items-center w-full px-8 py-6 max-w-[1440px] mx-auto">
+<div class="text-2xl font-bold tracking-tighter text-[#E5E2E1] font-rajdhani">NAVEEN R.</div>
+<div class="hidden md:flex items-center gap-8 font-label text-xs tracking-widest text-[#E4BEB3]">
+<a class="hover:text-primary transition-colors duration-300" href="#works">PORTFOLIO</a>
+<a class="hover:text-primary transition-colors duration-300" href="#creative">CREATIVE</a>
+<a class="text-primary font-bold" href="#contact">GET IN TOUCH</a>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full overflow-hidden border border-primary/40">
+<img alt="Naveen R. Portrait" class="w-full h-full object-cover" src="./profiles/IMG_1022.JPG.jpeg"/>
+</div>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative pt-48 pb-24 px-8 overflow-hidden">
+<div class="hero-glow absolute inset-0 -z-10"></div>
+<div class="max-w-[1440px] mx-auto">
+<div class="flex flex-col md:flex-row items-start justify-between gap-12">
+<div class="max-w-4xl">
+<span class="font-label text-xs tracking-[0.4em] text-primary mb-6 block">CS &amp; AI/ML GRADUATE</span>
+<h1 class="text-[clamp(3rem,8vw,6rem)] font-rajdhani font-bold leading-[0.9] tracking-tighter text-on-surface mb-8">
+                        AI/ML GRADUATE &amp;<br/>
+<span class="text-primary italic">CREATIVE CREATOR</span>
+</h1>
+<p class="text-lg text-on-surface-variant max-w-xl font-body leading-relaxed mb-10">
+                        I am a Computer Science graduate from VIT University, currently pursuing my Master’s degree in Artificial Intelligence and Machine Learning. I have a strong interest in technology and creativity, and I enjoy combining both in my work.
+                    </p>
+<div class="flex flex-wrap gap-6">
+<button class="bg-primary text-on-primary px-8 py-4 rounded font-bold font-rajdhani tracking-widest hover:shadow-[0_0_25px_rgba(243,80,15,0.4)] transition-all active:scale-95">
+                            EXPLORE PROJECTS
+                        </button>
+<div class="flex items-center gap-6 px-4">
+<span class="material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer transition-colors" data-icon="terminal">terminal</span>
+<span class="material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer transition-colors" data-icon="graphic_eq">graphic_eq</span>
+<span class="material-symbols-outlined text-on-surface-variant hover:text-primary cursor-pointer transition-colors" data-icon="video_library">video_library</span>
+</div>
+</div>
+</div>
+<div class="w-full md:w-80 bg-surface-container-low p-8 rounded border border-outline-variant/10">
+<div class="space-y-6">
+<div>
+<span class="text-[10px] font-label tracking-widest text-primary block mb-2">EDUCATION</span>
+<p class="text-on-surface font-rajdhani font-bold">VIT UNIVERSITY</p>
+<p class="text-xs text-on-surface-variant">B.Tech Computer Science</p>
+</div>
+<div class="pt-4 border-t border-outline-variant/10">
+<span class="text-[10px] font-label tracking-widest text-primary block mb-2">CURRENT FOCUS</span>
+<p class="text-on-surface font-rajdhani font-bold">MASTER'S IN AI/ML</p>
+<p class="text-xs text-on-surface-variant">Deep Learning &amp; Neural Nets</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="py-20 px-8 bg-surface-container-lowest border-y border-outline-variant/5">
+<div class="max-w-[1440px] mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="flex flex-col gap-2">
+<span class="text-4xl md:text-6xl font-rajdhani font-bold text-primary">10+</span>
+<span class="font-label text-[0.7rem] tracking-widest text-on-surface-variant uppercase">ML MODELS TRAINED</span>
+</div>
+<div class="flex flex-col gap-2">
+<span class="text-4xl md:text-6xl font-rajdhani font-bold text-on-surface">50+</span>
+<span class="font-label text-[0.7rem] tracking-widest text-on-surface-variant uppercase">VIDEOS EDITED</span>
+</div>
+<div class="flex flex-col gap-2">
+<span class="text-4xl md:text-6xl font-rajdhani font-bold text-on-surface">15+</span>
+<span class="font-label text-[0.7rem] tracking-widest text-on-surface-variant uppercase">DJ MIX SETS</span>
+</div>
+<div class="flex flex-col gap-2">
+<span class="text-4xl md:text-6xl font-rajdhani font-bold text-on-surface">4.0</span>
+<span class="font-label text-[0.7rem] tracking-widest text-on-surface-variant uppercase">GPA (MAJOR)</span>
+</div>
+</div>
+</section>
+<!-- Portfolio Gallery -->
+<section class="py-32 px-8" id="works">
+<div class="max-w-[1440px] mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div>
+<span class="font-label text-xs tracking-widest text-primary mb-4 block">SELECTED PROJECTS</span>
+<h2 class="text-5xl font-rajdhani font-bold tracking-tighter">TECHNICAL &amp; CREATIVE</h2>
+</div>
+<button class="font-label text-xs tracking-widest border-b border-primary text-primary pb-2">VIEW GITHUB REPOS</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Large Card: AI Research -->
+<div class="md:col-span-8 group cursor-pointer">
+<div class="relative aspect-video rounded overflow-hidden bg-surface-container-low mb-6">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="AI Research" src="./profiles/IMG_5728.jpg"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="bg-primary text-on-primary px-6 py-3 font-rajdhani font-bold tracking-widest">VIEW CASE STUDY</span>
+</div>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h3 class="text-2xl font-rajdhani font-bold mb-2">AI RESEARCH</h3>
+<p class="text-on-surface-variant font-body">Deep Learning & Neural Network explorations as part of my Master's at VIT.</p>
+</div>
+<span class="font-label text-xs bg-surface-container-highest px-3 py-1 rounded">2024</span>
+</div>
+</div>
+<!-- Vertical Card: Premiere Pro -->
+<div class="md:col-span-4 group cursor-pointer">
+<div class="relative h-[calc(100%-4rem)] rounded overflow-hidden bg-surface-container-low mb-6">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Video Editing" src="./profiles/IMG_5734.jpg"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="bg-primary text-on-primary px-6 py-3 font-rajdhani font-bold tracking-widest">WATCH SHOWREEL</span>
+</div>
+</div>
+<div>
+<h3 class="text-2xl font-rajdhani font-bold mb-2">PREMIERE PRO SHOWREEL</h3>
+<p class="text-on-surface-variant font-body">Professional video editing & digital content creation.</p>
+</div>
+</div>
+<!-- Horizontal Small -->
+<div class="md:col-span-12 grid md:grid-cols-2 gap-8 mt-12">
+<div class="group cursor-pointer">
+<div class="relative aspect-[16/9] rounded overflow-hidden bg-surface-container-low mb-6">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="DJing" src="./profiles/IMG_5750.jpg"/>
+</div>
+<h3 class="text-2xl font-rajdhani font-bold mb-2">DJ MIX SETS</h3>
+<p class="text-on-surface-variant font-body">Connecting people through sound, rhythm, and energy.</p>
+</div>
+<div class="group cursor-pointer">
+<div class="relative aspect-[16/9] rounded overflow-hidden bg-surface-container-low mb-6">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="DL Experiments" src="./profiles/IMG_5752.jpg"/>
+</div>
+<h3 class="text-2xl font-rajdhani font-bold mb-2">DL EXPERIMENTS</h3>
+<p class="text-on-surface-variant font-body">Neural network explorations and GANs experiments.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About/Creative Section -->
+<section class="py-32 px-8 bg-surface-container-low" id="creative">
+<div class="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div>
+<span class="font-label text-xs tracking-widest text-primary mb-4 block">CREATIVE SOUL</span>
+<h2 class="text-5xl font-rajdhani font-bold tracking-tighter mb-8 leading-tight">BEYOND THE<br/>CODEBASE</h2>
+<p class="text-xl text-on-surface leading-relaxed mb-6 font-medium">
+                    "I am passionate about video editing and digital content creation using Adobe Premiere Pro."
+                </p>
+<p class="text-on-surface-variant font-body leading-relaxed">
+                    Alongside my academic journey, I work with Adobe Premiere Pro to create engaging and visually appealing videos. I continuously explore new editing styles and techniques to improve my skills. In addition to editing, I am also a DJ, which reflects my creativity and passion for music. DJing allows me to connect with people through sound, rhythm, and energy, while also enhancing my sense of timing and creativity.
+                </p>
+<div class="mt-12 flex gap-12">
+<div class="flex flex-col">
+<span class="text-primary font-rajdhani font-bold text-2xl">ADOBE CC</span>
+<span class="text-xs font-label text-on-surface-variant uppercase tracking-widest">MASTERED TOOLSET</span>
+</div>
+<div class="flex flex-col">
+<span class="text-primary font-rajdhani font-bold text-2xl">BEATMATCHING</span>
+<span class="text-xs font-label text-on-surface-variant uppercase tracking-widest">CREATIVE FLOW</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-4 pt-12">
+<div class="bg-surface-container rounded-lg p-6 border border-outline-variant/10">
+<img alt="Creative Work" class="w-full h-32 object-cover rounded mb-4" src="./profiles/IMG_5768.jpg"/>
+<span class="material-symbols-outlined text-3xl text-primary mb-4" data-icon="movie_edit">movie_edit</span>
+<h4 class="font-rajdhani font-bold">VIDEO EDITING</h4>
+<p class="text-xs text-on-surface-variant mt-2">Cinematic cuts and narrative flow using Premiere Pro.</p>
+</div>
+<div class="bg-surface-container rounded-lg p-6 border border-outline-variant/10">
+<img alt="DJ Performance" class="w-full h-32 object-cover rounded mb-4" src="./profiles/IMG_5780.jpg"/>
+<span class="material-symbols-outlined text-3xl text-primary mb-4" data-icon="headphones">headphones</span>
+<h4 class="font-rajdhani font-bold">DJ PERFORMANCE</h4>
+<p class="text-xs text-on-surface-variant mt-2">Energy, rhythm, and crowd connection.</p>
+</div>
+</div>
+</div>
+<div class="space-y-4">
+<div class="bg-surface-container rounded-lg p-6 border border-outline-variant/10">
+<span class="material-symbols-outlined text-3xl text-primary mb-4" data-icon="auto_awesome">auto_awesome</span>
+<h4 class="font-rajdhani font-bold">AI GENERATIVE ART</h4>
+<p class="text-xs text-on-surface-variant mt-2">Exploring the bounds of AI creativity.</p>
+</div>
+<div class="bg-surface-container rounded-lg p-6 border border-outline-variant/10">
+<span class="material-symbols-outlined text-3xl text-primary mb-4" data-icon="podcasts">podcasts</span>
+<h4 class="font-rajdhani font-bold">CONTENT STRATEGY</h4>
+<p class="text-xs text-on-surface-variant mt-2">Building digital presence.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonial (Repurposed for Academic/Creative Praise) -->
+<section class="py-32 px-8">
+<div class="max-w-4xl mx-auto text-center">
+<span class="material-symbols-outlined text-6xl text-primary opacity-20 mb-8" data-icon="format_quote">format_quote</span>
+<blockquote class="text-3xl md:text-4xl font-rajdhani font-medium leading-tight mb-12 italic">
+                "Naveen possesses a rare combination of high-level technical aptitude in machine learning and a genuine creative instinct for digital storytelling."
+            </blockquote>
+<div class="flex items-center justify-center gap-4">
+<div class="text-center">
+<p class="font-rajdhani font-bold uppercase tracking-widest">ACADEMIC PEER REVIEW</p>
+<p class="text-xs font-label tracking-widest text-on-surface-variant">VIT UNIVERSITY COLLABORATOR</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-40 px-8 relative overflow-hidden" id="contact">
+<div class="max-w-[1440px] mx-auto relative z-10 text-center">
+<h2 class="text-[clamp(3rem,10vw,8rem)] font-rajdhani font-bold leading-none tracking-tighter mb-12">
+                LET'S BUILD <br/> <span class="text-primary">SOMETHING NEW</span>
+</h2>
+<div class="flex flex-col md:flex-row items-center justify-center gap-10">
+<a class="text-3xl md:text-5xl font-rajdhani font-bold hover:text-primary transition-colors border-b-2 border-transparent hover:border-primary pb-2" href="mailto:naveen.r@vit.edu">CONTACT@NAVEEN.DEV</a>
+<span class="hidden md:block w-12 h-px bg-outline-variant"></span>
+<button class="bg-on-surface text-surface px-10 py-5 font-rajdhani font-bold tracking-widest rounded flex items-center gap-4 hover:bg-primary hover:text-on-primary transition-all shadow-xl">
+                    DOWNLOAD CV
+                    <span class="material-symbols-outlined" data-icon="download">download</span>
+</button>
+</div>
+<div class="mt-20 flex justify-center gap-12 grayscale opacity-60 hover:opacity-100 transition-opacity">
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-4xl" data-icon="hub">hub</span></a>
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-4xl" data-icon="terminal">terminal</span></a>
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-4xl" data-icon="album">album</span></a>
+<a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-4xl" data-icon="linked_camera">linked_camera</span></a>
+</div>
+</div>
+<!-- Decorative Glow -->
+<div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-primary/10 blur-[120px] -z-10 rounded-full"></div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-20 px-8 bg-[#0E0E0E] border-t border-outline-variant/10">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+<div>
+<div class="text-xl font-bold text-[#E5E2E1] font-rajdhani mb-6 tracking-widest">NAVEEN R.</div>
+<p class="text-[#E4BEB3] font-body text-sm max-w-xs leading-relaxed">
+                    CS Graduate &amp; AI/ML Student at VIT University. Exploring the intersection of neural networks and creative media.
+                </p>
+</div>
+<div class="flex flex-wrap gap-16">
+<div class="flex flex-col gap-4">
+<span class="text-[0.75rem] font-label uppercase text-primary tracking-[0.2em] font-bold">EXPLORE</span>
+<div class="flex flex-col gap-2">
+<a class="text-[#E4BEB3] text-sm hover:text-primary transition-all duration-300" href="#works">AI PROJECTS</a>
+<a class="text-[#E4BEB3] text-sm hover:text-primary transition-all duration-300" href="#creative">VIDEO WORK</a>
+<a class="text-[#E4BEB3] text-sm hover:text-primary transition-all duration-300" href="#creative">DJ SETS</a>
+<a class="text-[#E4BEB3] text-sm hover:text-primary transition-all duration-300" href="#contact">CONTACT</a>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-[0.75rem] font-label uppercase text-primary tracking-[0.2em] font-bold">SOCIALS</span>
+<div class="flex flex-col gap-2">
+<a class="text-[#E4BEB3] text-sm hover:text-primary transition-all duration-300" href="#">LINKEDIN</a>
+<a class="text-[#E4BEB3] text-sm hover:text-primary transition-all duration-300" href="#">GITHUB</a>
+<a class="text-[#E4BEB3] text-sm hover:text-primary transition-all duration-300" href="#">INSTAGRAM</a>
+<a class="text-[#E4BEB3] text-sm hover:text-primary transition-all duration-300" href="#">MIXCLOUD</a>
+</div>
+</div>
+</div>
+</div>
+<div class="max-w-[1440px] mx-auto mt-20 pt-8 border-t border-outline-variant/5 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-[0.65rem] font-label uppercase text-[#E4BEB3] tracking-widest">© 2024 NAVEEN R. PORTFOLIO</p>
+<p class="text-[0.65rem] font-label uppercase text-[#E4BEB3] opacity-40 italic tracking-widest uppercase">Precision &amp; Creativity</p>
+</div>
+</footer>
+</body></html>
